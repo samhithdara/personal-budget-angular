@@ -1,0 +1,19 @@
+.breadcrumbs {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+  
+    span {
+      color: #333;
+    }
+  
+    // Style separator
+    span + span::before {
+      content: ' > ';
+      color: #777;
+    }
+  }
+  
